@@ -1,6 +1,7 @@
-C:\lg\azure\powerbiweb\PowerBI-Embedded-Sample-Java\src\main\java\org\mydomain\powerbiembedded\model\ReportList.java
-C:\lg\azure\powerbiweb\PowerBI-Embedded-Sample-Java\src\main\java\org\mydomain\action\IndexAction.java
-C:\lg\azure\powerbiweb\PowerBI-Embedded-Sample-Java\src\main\java\org\mydomain\powerbiembedded\model\Report.java
-C:\lg\azure\powerbiweb\PowerBI-Embedded-Sample-Java\src\main\java\org\mydomain\powerbiembedded\helper\PowerBIHelper.java
-C:\lg\azure\powerbiweb\PowerBI-Embedded-Sample-Java\src\main\java\org\mydomain\model\ViewDto.java
-C:\lg\azure\powerbiweb\PowerBI-Embedded-Sample-Java\src\main\java\org\mydomain\model\AppConfig.java
+C:\lg\azure\powerbiweb\PowerBI-Developer-Samples\Java\Embed for your customers\PowerBIEmbedding\src\main\java\com\embedsample\appownsdata\models\EmbedConfig.java
+C:\lg\azure\powerbiweb\PowerBI-Developer-Samples\Java\Embed for your customers\PowerBIEmbedding\src\main\java\com\embedsample\appownsdata\controllers\EmbedController.java
+C:\lg\azure\powerbiweb\PowerBI-Developer-Samples\Java\Embed for your customers\PowerBIEmbedding\src\main\java\com\embedsample\appownsdata\services\PowerBIService.java
+C:\lg\azure\powerbiweb\PowerBI-Developer-Samples\Java\Embed for your customers\PowerBIEmbedding\src\main\java\com\embedsample\appownsdata\models\EmbedToken.java
+C:\lg\azure\powerbiweb\PowerBI-Developer-Samples\Java\Embed for your customers\PowerBIEmbedding\src\main\java\com\embedsample\appownsdata\config\Config.java
+C:\lg\azure\powerbiweb\PowerBI-Developer-Samples\Java\Embed for your customers\PowerBIEmbedding\src\main\java\com\embedsample\appownsdata\services\AzureADService.java
+C:\lg\azure\powerbiweb\PowerBI-Developer-Samples\Java\Embed for your customers\PowerBIEmbedding\src\main\java\com\embedsample\appownsdata\config\Config1.java
