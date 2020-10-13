@@ -1,0 +1,6 @@
+org\mydomain\powerbiembedded\model\Report.class
+org\mydomain\model\AppConfig.class
+org\mydomain\powerbiembedded\helper\PowerBIHelper.class
+org\mydomain\powerbiembedded\model\ReportList.class
+org\mydomain\action\IndexAction.class
+org\mydomain\model\ViewDto.class
