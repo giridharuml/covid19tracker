@@ -9,7 +9,7 @@ Login to Ubuntu Server
 
 #JDK Installation
 
-# install JAVA on ubuntu 
+# install JAVA/JDK on ubuntu 
 
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 0xB1998361219BD9C9
 
@@ -164,7 +164,8 @@ sudo systemctl start tomcat
 
 https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/Java
 
-# Datasets are forked from 
+
+# Near Real Time Datasets are forked from  
       COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University
    
   
