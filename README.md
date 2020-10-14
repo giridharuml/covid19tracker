@@ -1,5 +1,7 @@
 # covid19tracker
 
+Covid19Tracker is a Proof of Concept of Azure Cloud Services.
+
 Installation Instructions 
 
 Login to Ubuntu Server
@@ -50,8 +52,8 @@ sudo nano /etc/systemd/system/tomcat.service
 
 copy below script in tomcat.service
 
-# starting 
-########### START ######################################
+# script for tomcat.service 
+################################################
 
 [Unit]
 
@@ -96,10 +98,7 @@ Restart=always
 
 WantedBy=multi-user.target
 
-####### END ###################################3
-#end of the script.
-
-
+##########################################3
 
 
 sudo systemctl daemon-reload
@@ -109,20 +108,17 @@ chmod +777 -R /opt/tomcat/*
 change port number "8080" to "80" in server.xml
 
 
-
 # install authbind
 
 
  sudo apt-get install -y authbind 
  
- 
-#change int startup.sh in tomcat bin 
+
+# changes in startup.sh in tomcat/bin 
 
 comment exiting line "$PRGDIR"/"$EXECUTABLE" start "$@"
 
-
 add below line 
-
 
 exec authbind --deep  "$PRGDIR"/"$EXECUTABLE" start "$@"
 
@@ -162,3 +158,7 @@ repeat the same installation steps dicussed above.
 
 sudo systemctl start tomcat
 
+#Notes: 
+
+The sample source code is forked from https://github.com/microsoft/PowerBI-Developer-Samples/tree/master/Java
+Datasets are courtesy of https://github.com/CSSEGISandData/COVID-19
